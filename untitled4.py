@@ -15,7 +15,7 @@ import pickle
 from sklearn.datasets import load_iris
 
 # Load model
-with open('model/iris_nb_model.pkl', 'rb') as f:
+with open('random_forest_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load dataset
